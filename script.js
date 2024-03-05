@@ -239,5 +239,5 @@ scroll=()=>{
 }
 const searchBtn = document.querySelector('#searchBtn');
 searchBtn.addEventListener('click',()=>{
-    setTimeout(scroll,1500);
+    setTimeout(scroll,2000);
 });
