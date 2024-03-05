@@ -1,9 +1,6 @@
 const btn = document.getElementById("searchBtn")
 const a = document.querySelectorAll("input")
 let x = Math.floor((Math.random() * 17) + 1);
-//let y = Math.floor((Math.random() * 17) + 1);
-//let z = Math.floor((Math.random() * 17) + 1);
-//let w = Math.floor((Math.random() * 17) + 1);
 const fetchapi = () =>{
     let author='';
     let title='';
@@ -242,5 +239,5 @@ scroll=()=>{
 }
 const searchBtn = document.querySelector('#searchBtn');
 searchBtn.addEventListener('click',()=>{
-    setTimeout(scroll,2000);
+    setTimeout(scroll,1500);
 })
